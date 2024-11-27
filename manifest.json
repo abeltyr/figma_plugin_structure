@@ -1,0 +1,22 @@
+{
+  "name": "figma_plugin_preact",
+  "id": "1439023501466891152",
+  "api": "1.0.0",
+  "main": "build/lib/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "build/dist/index.html",
+  "networkAccess": {
+    "allowedDomains": [
+      "http://localhost:6989/api/posts"
+    ],
+    "reasoning": "MyPlugin needs to send data",
+    "devAllowedDomains": [
+      "http://localhost:6989"
+    ]
+  }
+}
